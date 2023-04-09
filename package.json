@@ -1,0 +1,24 @@
+{
+  "name": "img-convert",
+  "version": "1.0.0",
+  "description": "<h1>Conversão de imagens para a dissertação</h1>\r <h2>Descrição</h2>\r <p>Este código é usado para converter imagens para a dissertação de mestrado em [insira o nome do programa aqui]. Ele lê todas as imagens no diretório <code>./pictures</code>, redimensiona-as para 32x32 pixels e salva as imagens convertidas no diretório <code>./converted-pictures</code>.</p>\r <h2>Requisitos</h2>\r <p>Para usar este código, é necessário ter o Node.js e o pacote Jimp instalados no seu computador.</p>\r <h3>Node.js</h3>\r <p>O Node.js pode ser baixado no <a href=\"https://nodejs.org\">site oficial</a>. Verifique a versão atual com o comando <code>node -v</code> na linha de comando.</p>\r <h3>Jimp</h3>\r <p>O pacote Jimp pode ser instalado com o comando <code>npm install jimp</code> na linha de comando. Verifique a versão atual com o comando <code>npm show jimp version</code> na linha de comando.</p>\r <h2>Como usar</h2>\r <ol>\r <li>Clone o repositório ou baixe o código-fonte.</li>\r <li>Abra o terminal ou prompt de comando na pasta raiz do projeto.</li>\r <li>Execute o comando <code>npm install</code> para instalar as dependências do projeto.</li>\r <li>Coloque as imagens que deseja converter na pasta <code>./pictures</code>.</li>\r <li>Execute o comando <code>node convert-images.js</code> para iniciar a conversão de imagens.</li>\r <li>As imagens redimensionadas serão salvas na pasta <code>./converted-pictures</code>.</li>\r </ol>\r <h2>Observações</h2>\r <p>Certifique-se de que as imagens que deseja converter estão na pasta <code>./pictures</code> antes de executar o script. O script irá procurar apenas por imagens no formato PNG e irá ignorar todos os outros tipos de arquivos. Certifique-se também de que a pasta <code>./converted-pictures</code> existe antes de executar o script. Se a pasta não existir, o script irá criá-la automaticamente.</p>\r <h2>Licença</h2>\r <p>Este projeto está licenciado sob a licença MIT - veja o arquivo <code>LICENSE</code> para mais detalhes.</p>#\u0000 \u0000i\u0000m\u0000g\u0000-\u0000c\u0000o\u0000n\u0000v\u0000e\u0000r\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.22.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffersonValentim1/img-convert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeffersonValentim1/img-convert/issues"
+  },
+  "homepage": "https://github.com/JeffersonValentim1/img-convert#readme"
+}
